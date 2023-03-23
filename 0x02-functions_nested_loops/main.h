@@ -11,3 +11,17 @@ void times_table(void);
 int add(int, int);
 void print_to_98(int n);
 void print_times_table(int n);
+#ifndef MAIN_H
+#define MAIN_H
+
+#include <stdio.h>
+
+/**
+ * _abs - Computes the absolute value of an integer.
+ * @n: The integer to compute the absolute value of.
+ *
+ * Return: The absolute value of the integer @n.
+ */
+int _abs(int n);
+
+#endif /* MAIN_H */
