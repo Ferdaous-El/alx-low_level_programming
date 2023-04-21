@@ -57,4 +57,5 @@ void print_str(char *s)
 		return;
 	}
 	printf("(nil)");
+	printf("\n");
 }
